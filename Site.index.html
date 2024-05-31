@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoria Tributária</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .services, .articles, .about {
+            margin-bottom: 2em;
+        }
+        .articles article {
+            margin-bottom: 1em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            padding: 0.5em;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Consultoria Tributária</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#services">Serviços</a>
+        <a href="#articles">Artigos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Formação: Especialista em Direito Tributário pela Universidade XYZ</p>
+            <p>Experiência Profissional: Mais de 10 anos de experiência em consultoria tributária para empresas de diversos setores.</p>
+            <p>Áreas de Especialização: Planejamento tributário, consultoria fiscal, compliance tributário.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Serviços</h2>
+            <p>Oferecemos uma gama completa de serviços tributários, incluindo:</p>
+            <ul>
+                <li>Planejamento Tributário</li>
+                <li>Consultoria Fiscal</li>
+                <li>Compliance Tributário</li>
+                <li>Defesa Administrativa e Judicial</li>
+            </ul>
+            <p>Nossos serviços são personalizados para atender às necessidades específicas de cada cliente, garantindo eficiência e conformidade com as legislações vigentes.</p>
+        </section>
+        <section id="articles" class="articles">
+            <h2>Artigos</h2>
+            <article>
+                <h3>Últimas Notícias sobre Legislação Tributária</h3>
+                <p>Mantenha-se atualizado com as últimas mudanças na legislação tributária e como elas podem impactar sua empresa.</p>
+            </article>
+            <article>
+                <h3>Estudo de Caso: Sucesso na Redução de Impostos</h3>
+                <p>Veja como ajudamos uma empresa a reduzir significativamente sua carga tributária através de um planejamento eficiente.</p>
+            </article>
+            <article>
+                <h3>Guia Prático para Compliance Tributário</h3>
+                <p>Descubra as melhores práticas para garantir que sua empresa esteja em conformidade com todas as obrigações tributárias.</p>
+            </article>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato para mais informações sobre nossos serviços:</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Consultoria Tributária. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
